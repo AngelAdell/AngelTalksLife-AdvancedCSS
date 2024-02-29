@@ -1,0 +1,208 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box; 
+}
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+}
+@media only screen and (min-width: 600px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+}
+@media only screen and (min-width: 992px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+/* Navigation & Header */
+header {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header img {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0%;
+  }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav a:hover {
+    color: #f1356d;
+}
+nav ul li {
+    padding: 0 2rem;
+    position: relative;
+}
+
+
+
+/* Body and Main background */
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 10rem;
+}
+body {
+    background-color: #ac1e44;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+footer {
+    background-color: #ac1e44;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Path: aboutMe/index.html */
+/* About Me */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 10rem;
+}
+.about img {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.contactForm{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Portfolio Page */
+
+
+/* Blog Posts Page */
+
+
+/* Contact Page */
+
+/* Footer */
+footer {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+}
+footer li {
+    display: inline;
+    padding: 0 1rem;
+}
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #f1356d;
+}
